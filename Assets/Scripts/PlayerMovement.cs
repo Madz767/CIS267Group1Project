@@ -64,22 +64,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("portal"))
         {
-            if(level == 0)
-            {
-                SceneManager.LoadScene("Level1");
-            }
-            if (level == 1)
-            {
-                SceneManager.LoadScene("Level2");
-            }
-            if (level == 2)
-            {
-                SceneManager.LoadScene("Level3");
-            }
-            if (level == 3)
-            {
-                //you win!!
-            }
+            
+            Object.FindAnyObjectByType<GameManger>().nextlevel();
 
         }
         
