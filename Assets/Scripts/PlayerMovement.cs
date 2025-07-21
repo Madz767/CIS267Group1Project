@@ -67,14 +67,17 @@ public class PlayerMovement : MonoBehaviour
             if(level == 0)
             {
                 SceneManager.LoadScene("Level1");
+                //level += 1;
             }
             if (level == 1)
             {
                 SceneManager.LoadScene("Level2");
+                //level += 1;
             }
             if (level == 2)
             {
                 SceneManager.LoadScene("Level3");
+                //level += 1;
             }
             if (level == 3)
             {

@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Ground
   - portal
+  - Enemy
+  - Corral
+  - Item
+  - Breakable
+  - Key
+  - Projectile
   layers:
   - Default
   - TransparentFX
